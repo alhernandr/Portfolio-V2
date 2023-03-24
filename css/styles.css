@@ -1,0 +1,139 @@
+@media (min-width: 780px) {}
+
+:root{
+    --blanco:#ffffff;
+    --oscuro: #EB6440;
+    --primario: #D6E4E5;
+    --secundario:#497174;
+    --gris: #EFF5F5;
+    --grisClaro: #dfe9f3;
+}
+
+
+html {
+    font-size: 75.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #202020;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: #202020;}
+
+.titulo{
+    font-size: 3.8rem;
+    color: var(--primario);
+    text-align: center; }
+
+.titulo span {
+    font-size: 2.4rem;
+}
+
+.sombra {
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 8rem;
+    }
+
+.navegacion-principal {
+    height:5rem ;
+    margin-top:2rem;
+    margin-left: 3rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: var(--secundario);
+    border-radius: 3rem;}
+
+.navegacion-principal a {
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 10px;
+    border-radius: 5rem; }
+
+.navegacion-principal a:hover {
+    text-decoration: none;
+    color: var(--white);
+    background-color:var(--primario);
+    margin: 0.15rem;
+    position:static;}
+
+.titlespage {
+    display: flex;
+    justify-content: space-around;}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+}
+.icono {
+    margin: 2rem;
+    height: 85px; 
+}
+
+.social {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;}
+
+.social img {
+    height: 100px;}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;}
+
+.foot {
+    margin-top:2rem ;
+    font-size: 1rem;
+    color: var(--primario);
+    text-align: center;}
+
+.caja1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15rem;
+    font-size: 1.5rem;
+}
+
+.section .imgc {
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+    border-radius: 2rem;
+    margin-left: 7rem;
+}
+
+.section2 {
+    text-align: center;
+    flex-direction: column;
+    margin-right: 8rem;
+    align-items: center;
+}
+
+.section .slider {
+    display:flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    max-width: 600px;
+}
+
+.orden2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+
+
+

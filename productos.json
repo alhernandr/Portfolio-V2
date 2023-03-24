@@ -1,0 +1,21 @@
+{
+    "Nombre": "My Proyects",
+    "Developer": "Álvaro Hernández Rodríguez",
+    "Ciclo": "1DAW",
+    "active": true,
+    "Proyectos": [
+      {
+        "Nombre_proyecto": "Proyecto freelance",
+        "img": "./img/ProjectoFreelance.png" 
+      },
+      {
+        "Nombre_proyecto": "Proyecto JSON",
+        "img": "./img/happy can.png"
+    
+      },
+      {
+        "Nombre_proyecto": "Proyecto Huddle Landing Page",
+        "img": "./img/huddle.png"
+      }
+    ]
+  }
